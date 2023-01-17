@@ -1,0 +1,23 @@
+{
+  "name": "mockups",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Assamdi Yassine",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "jimp": "^0.16.1",
+    "open-file-explorer": "^1.0.2",
+    "rimraf": "^3.0.2",
+    "sharp": "^0.30.7"
+  }
+}
